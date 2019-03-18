@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main {
+	int a,b;//設定兩個變數a,b
+	cin>>a;//輸入a
+	while(a!=0)//當(a不等於0)
+  {
+		b=b+a%10;//把b+(a/10的餘數)
+		a=a/10;//把a/10
+	}
+cout<<b;//輸出b
+	return 0;//回傳0
+}
