@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int H,M;//設定H,M兩個變數
+	cin>>H>>M;//輸入H和M
+	if (870<=H*60+M&&H*60+M<=1010)//如果(870小於等於H*60+M並且H*60+M<=1010)
+	cout<<"YES";//輸出YES
+	else cout<<"NO";//不然就輸出NO
+}
