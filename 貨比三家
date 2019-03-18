@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,c;//設定變數a,b,c
+	cin>>a>>b>>c;//輸出a,b,c
+	if(a<=b&&a<=c)cout<<a;//如果(a小於等於b並且a小於等於b)就輸出a
+	else if(b<=a&&b<=c)cout<<b;//如果(b小於等於a並且b小於等於c)就輸出b
+	else if(c<=a&&c<=b)cout<<c;//如果(c小於等於a並且c小於等於b)就輸出c
+}
