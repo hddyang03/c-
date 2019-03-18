@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+int main(int argc, char** argv) {
+int a;//設定一個變數整數a
+cin>>a;//輸入a
+while(a%2==0)//當(a/2的餘數不等於0)
+ if(a%2==0)a=a/2;//如果(a/2的餘數不等於0),就將a/2
+cout<<a; 輸出a
+}
