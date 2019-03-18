@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int a,b;//設定a,b為變數
+char c;//設定字元c
+cin >>a>>c>>b;//輸出a,c,b
+if (c=='+')//如果c是+
+cout<<a+b<<endl;//輸出a+b
+if (c=='-')//如果c是-
+cout<<a-b<<endl;//輸出a-b
+if (c=='*')//如果c是*
+cout<<a*b<<endl;//輸出a*b
+}
